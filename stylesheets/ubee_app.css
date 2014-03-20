@@ -8,14 +8,9 @@
 /* Use with Bootstrap v3.1.1 */
 
 
-
-
-
 body {
     margin: 0 auto;
 }
-
-
 
 
 /* Type */
@@ -38,6 +33,7 @@ h1, h2, h3, h4, h5, h6 {
     background-position: center;
     color: white;
     z-index: 1;
+    position: relative;
 }
 
 .save_your_time {
@@ -278,6 +274,13 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 10px;
 }
 
+.arrow_down {
+    display: none;
+}
+
+.arrow_down img {
+    display: none;
+}
 
 /* MEDIA QUERIES */
 
@@ -353,6 +356,37 @@ h1, h2, h3, h4, h5, h6 {
 
     .cel_tutorial_img img {
 	width: 550px;
+    }
+
+    .arrow_down {
+        display: inline;
+        position: absolute;
+        bottom: -70px;
+        right: 50%;
+        width:100px;
+        height:100px;
+        z-index: 10;
+    }
+
+    .arrow_down img {
+        display: inline;
+        position: absolute;
+        right: -50%;
+        width:60px;
+        height:60px;
+        border-radius:50px;        
+        background-color:rgba(255, 255, 255, 0.2);
+        /background-color: white;/
+    }        
+
+    .save_your_time {
+        position: relative;
+        padding-top: 50px;
+        color: #FFD600;
+        text-align: center;
+        height: 540px;
+        background-color: black;
+        z-index: 0;
     }	
 
 }
