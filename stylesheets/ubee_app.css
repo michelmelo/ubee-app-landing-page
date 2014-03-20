@@ -346,7 +346,7 @@ h1, h2, h3, h4, h5, h6 {
 
     .icon_download_android {
         text-align: center;
-        margin: 25px 0 0 0;
+        margin: 15px 0 0 0;
         width: 100%;
     }        		
 
@@ -371,7 +371,7 @@ h1, h2, h3, h4, h5, h6 {
     .arrow_down img {
         display: inline;
         position: absolute;
-        right: -40%;
+        right: -30%;
         width:60px;
         height:60px;
         border-radius:50px;        
