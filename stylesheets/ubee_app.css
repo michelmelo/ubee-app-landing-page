@@ -371,7 +371,7 @@ h1, h2, h3, h4, h5, h6 {
     .arrow_down img {
         display: inline;
         position: absolute;
-        right: -50%;
+        right: -40%;
         width:60px;
         height:60px;
         border-radius:50px;        
@@ -438,6 +438,15 @@ h1, h2, h3, h4, h5, h6 {
 
     .wrap_footer {
         width: 300px;
+    }
+
+    .icon_ubee_app img {
+        width: 200px;
+        height: auto;
+    }
+
+    .top {
+        height: 500px;
     }
 
 }
