@@ -1,0 +1,410 @@
+/*
+ * UBEE APP - Landing v1.0
+ * Mar/2014
+ * Copyright 2011-2014 Ubee, Inc.
+ *
+ */
+
+/* Use with Bootstrap v3.1.1 */
+
+
+
+
+
+body {
+	margin: 0 auto;
+}
+
+
+
+
+/* Type */
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Raleway";
+	font-weight: normal;
+}
+
+
+.frame {
+	width: 100%;
+}
+
+.top {
+	height: 670px;
+	padding-top: 90px;
+	background-image: url('../images/bg_app_top.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	color: white;
+	z-index: 1;
+}
+
+.save_your_time {
+	position: relative;
+	padding-top: 50px;
+	color: #FFD600;
+	text-align: center;
+	height: 540px;
+	background-color: black;
+	z-index: 2;
+}
+
+.cel_tutorial {
+	height: 921px;
+	background-color: #F2F2F2;
+	text-align: center;
+}
+
+.contact {
+	height: 500px;
+	background-color: #FFD600;
+}
+
+.download {
+	height: 300px;
+	background-color: #FFD600;
+	text-align: center;
+}
+
+.footer {
+	height: 160px;
+	background-color: black;
+}
+
+
+
+
+/* .top elements */
+
+
+.top h1, .top h3 {
+	margin-left: 10px;
+}
+
+.icon_ubee_app {
+	color: white;
+}
+
+.icon_ubee_app img {
+	width: 290px;
+	height: 277px;
+	margin-bottom: 10px;
+}
+
+.img_top_cel {
+	position: absolute;
+	right: 0;
+	padding-top: 5px;
+	text-align: right;
+}
+
+.img_top_cel img {
+	width: 375px;
+}
+
+.top_download_icons {
+	width: 100%;
+}
+
+.icon_download_android, .icon_download_ios {
+	margin: 40px 7px 0 0;
+	float: left;
+	width: 165px;
+}
+
+.icon_download_android img, .icon_download_ios img {
+	width: auto;
+	height: 48px;
+}
+
+
+
+
+/* .save_your_time  elements */
+
+.save_your_time h3 {
+	color: white;
+}
+
+.save_your_time .row h3 {
+	color: #FFD600;
+}
+
+
+.save_your_time .row .item {
+	margin-top: 30px;
+}
+
+.symbol_ubee {
+	position: absolute;
+	bottom: -50px;
+	right: 50%;
+	width:100px;
+	height:100px;
+}
+
+.symbol_ubee img {
+	position: absolute;
+	right: -50%;
+	width:100px;
+	height:100px;
+	border-radius:50px;	
+	background-color: #FFD600;
+}
+
+
+
+/* .cel_tutorial  elements */
+
+.cel_tutorial .container {
+	padding-top: 80px;
+}
+
+.cel_tutorial_img {
+	text-align: center;
+	padding-top: 30px;
+}
+
+.cel_tutorial_img img {
+	width: 940px;
+}
+
+
+
+
+/* .contact  elements */
+
+.contact .container {
+	padding-top: 40px;
+}	
+
+.contact h1 {
+	text-align: center;
+}
+
+.contact form {
+	padding-top: 30px;
+}
+
+.contact input {
+	height: 40px;
+}
+
+.contact button {
+	margin-top: 20px;
+}
+
+
+
+
+/* .download  elements */
+
+.download .container {
+	padding-top: 40px;
+}
+
+.download-frame {
+	text-align: center;	
+}
+
+.download-android {
+    margin-top: 40px
+}
+
+.download-ios {
+	text-align: left;
+	padding: 20px 0 0 10px;
+	width: 50%;
+	float: left;
+}
+
+
+
+/* .footer  elements */
+
+
+
+.footer .container {
+	padding-top: 30px;
+	text-align: center;
+}
+
+.wrap_footer {
+	margin: 0 auto;
+	width: 320px;
+	height: 70px;
+}
+
+.footer_col {
+	float: left;
+	width: 65px;
+	margin-left: 35px;
+	margin-bottom: 15px;
+	height: 70px;
+	text-align: center;
+}
+
+.icon_footer {
+	width: 64px;
+	height: 64px;
+	border-radius: 50%;
+	background-color: #E6E6E6;
+}
+
+.icon_footer img {
+	width:64px;
+}
+
+
+.ubee_footer_logo {
+	width: 100%;
+}
+
+.ubee_footer_logo p {
+	color: white;
+	font-size: 11px;
+}
+
+.ubee_logo {
+	float: left;
+	margin-right: 3px;
+}
+
+.ubee_logo img {
+	float: left;
+	width: 60px;
+}
+
+.ubee_footer_txt {
+	padding-top: 10px;
+}
+
+
+/* MEDIA QUERIES */
+
+
+@media (min-width: 1200px) {
+	.container {
+		width: 940px;
+	}
+}
+
+
+@media (max-width: 991px) {}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.save_your_time {
+		height: 990px;
+		background-color: black;
+	}
+
+	.cel_tutorial {
+		height: 820px;
+	}	
+
+	.cel_tutorial_img {
+		text-align: center;
+		padding-top: 30px;
+	}
+
+	.cel_tutorial_img img {
+		width: 700px;
+	}	
+
+	.contact {
+		height: 560px;
+		background-color: #FFD600;
+	}				
+}
+
+
+@media (max-width: 768px) {
+	
+	.save_your_time {
+		height: 990px;
+		background-color: black;
+	}
+
+	.contact {
+		height: 560px;
+		background-color: #FFD600;
+	}
+
+	.icon_ubee_app {
+		text-align: center;
+		color: white;
+	}	
+
+	.icon_download_android {
+		text-align: right;
+		margin: 40px 2% 0 0;
+		float: left;
+		width: 47%;
+	}	
+
+	.icon_download_ios {
+		text-align: left;
+		margin: 40px 0 0 2%;
+		float: left;
+		width: 49%;
+	}
+
+	.cel_tutorial {
+		height: 700px;
+	}	
+
+	.cel_tutorial_img img {
+		width: 550px;
+	}	
+
+}
+
+
+@media (max-width: 600px) {
+	
+	.cel_tutorial_img img {
+		width: 450px;
+	}		
+
+
+}
+
+
+@media (max-width: 548px) {
+
+}
+
+
+@media (max-width: 500px) {
+
+	.download-android img, .download-ios img {
+		height: 48px;
+	}
+
+	.cel_tutorial {
+		height: 600px;
+	}		
+	.cel_tutorial_img img {
+		width: 370px;
+	}
+
+}
+
+
+@media (max-width: 400px) {
+
+	.cel_tutorial {
+		height: 600px;
+	}		
+
+	.cel_tutorial_img img {
+		width: 360px;
+	}	
+
+
+}
+
+
+
