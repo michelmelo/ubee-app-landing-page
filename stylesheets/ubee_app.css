@@ -329,11 +329,6 @@ h1, h2, h3, h4, h5, h6 {
         height: 600px;
     }
     
-    .save_your_time {
-	height: 990px;
-	background-color: black;
-    }
-
     .contact {
 	height: 560px;
 	background-color: #FFD600;
@@ -384,7 +379,7 @@ h1, h2, h3, h4, h5, h6 {
         padding-top: 50px;
         color: #FFD600;
         text-align: center;
-        height: 540px;
+        height: 990px;
         background-color: black;
         z-index: 0;
     }	
