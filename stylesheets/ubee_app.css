@@ -356,7 +356,7 @@ h1, h2, h3, h4, h5, h6 {
     .arrow_down {
         display: inline;
         position: absolute;
-        bottom: -77px;
+        bottom: -88px;
         right: 50%;
         width:100px;
         height:100px;
@@ -370,7 +370,7 @@ h1, h2, h3, h4, h5, h6 {
         width:60px;
         height:60px;
         border-radius:50px;        
-        background-color:rgba(255, 255, 255, 0.15);
+        /* background-color:rgba(255, 255, 255, 0.15); */
         /background-color: white;/
     }        
 
