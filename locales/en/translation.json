@@ -7,7 +7,8 @@
         "routes": "Routes",
         "never_stuck": "Never get stuck trying to find your way at airports, shopping malls and other large venues. With ubee you can find yourself and find whatever you need",
         "download_now": "Download now!",
-        "venues_number": "More than 30 venues and counting..."
+        "venues_number": "More than 30 venues and counting...",
+        "image_cel": "images/img_cel_tutorial_en.png"
     },
 
     "language": {
