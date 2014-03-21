@@ -1,6 +1,6 @@
 # Ubee App Landing Page
 
-Landing page do Ubee App. [ubee app]
+Landing page do [ubee app].
 
 ## Copyright
 
@@ -8,5 +8,4 @@ Landing page do Ubee App. [ubee app]
 
 [bootstrapp]:http://getbootstrap.com
 [jquery]:http://jquery.com
-[ubee app]:http://app.ubee.in
-
+[Ubee App]:http://app.ubee.in
