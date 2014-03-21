@@ -3,6 +3,7 @@
 
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="content-language" content="pt-br" />		
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="ubee system - ads - analytics -  maps - app">
     <meta name="author" content="Ubee Desenvolvimento de Software S/A">
@@ -60,20 +61,20 @@
 
     <div class="frame save_your_time" id="save_your_time_div">
       <div class="container">
-	<h1>Save Your Time</h1>
-	<h3>Ubee app is here to present you a new experience: location for indoor venues.</h3>
+	<h1 data-i18n="content.save_your_time"></h1>
+	<h3 data-i18n="content.save_your_time_subtitle"></h3>
 	<div class="row">
 	  <div class="item col-lg-4 col-md-4">
 	    <img src="images/icon_01.png" alt="">
-	    <h3>Interactive Maps</h3>
+	    <h3 data-i18n="content.interactive_maps"></h3>
 	  </div>
 	  <div class="item col-lg-4 col-md-4">
 	    <img src="images/icon_02.png" alt="">
-	    <h3>Accurate Indoor Positioning</h3>
+	    <h3 data-i18n="content.acurate_indoor"></h3>
 	  </div>
 	  <div class="item col-lg-4 col-md-4">
 	    <img src="images/icon_03.png" alt="">
-	    <h3>Routes</h3>
+	    <h3 data-i18n="content.routes"></h3>
 	  </div>
 	  <div class="symbol_ubee">
 	    <img src="images/symbol_ubee.png" alt="">
@@ -84,7 +85,7 @@
 
     <div class="frame cel_tutorial">
       <div class="container">
-	<h3>Never get stuck trying to find your way at airports, shopping malls and other large venues. With ubee you can find yourself and find whatever you need</h3>
+	<h3 data-i18n="content.never_stuck"></h3>
 	<div class="cel_tutorial_img">
 	  <img src="images/img_cel_tutorial.png" alt="">
 	</div>
@@ -93,8 +94,8 @@
     
     <div class="frame download">
       <div class="container">
-	<h1>Download now!</h1>
-	<h3>More than 30 venues and counting</h3>
+	<h1 data-i18n="content.download_now"></h1>
+	<h3 data-i18n="content.venues_number"></h3>
 	<div class="download-frame">
 	  <div class="download-android">
 	    <a href="https://play.google.com/store/apps/details?id=in.ubee.app" target="blank">
@@ -141,13 +142,17 @@
 	  <div class="ubee_footer_logo">
 	    <span class="ubee_logo"><img src="images/logo_ubee_footer.png" alt=""></span>
 	    <p class="ubee_footer_txt">Desenvolvimento de Software S/A © Copyright 2014</p>
+            <div class="other_language">
+              <a data-i18n="[href]language.other_language_link"><img data-i18n="[src]language.other_language_src"></a>
+            </div>
 	  </div>					
 	</div>
       </div>
     </div>
 
-
-    <script src="javascripts/jquery-1.11.0.min.js" type="text/javascript"></script>
+    <script src="javascripts/jquery-1.6.4.min.js" type="text/javascript"></script>
+    <script src="javascripts/i18next-1.6.3.min.js" type="text/javascript"></script>
     <script src="javascripts/ubee_app.js" type="text/javascript"></script>
+    <script src="javascripts/locale.js" type="text/javascript"></script>
   </body>
 </html>
