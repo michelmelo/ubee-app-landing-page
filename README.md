@@ -1,6 +1,6 @@
 # Ubee App Landing Page
 
-Landing page do [ubee app].
+Landing page do [Ubee App].
 
 ## Copyright
 
