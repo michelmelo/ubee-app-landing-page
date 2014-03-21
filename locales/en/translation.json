@@ -13,6 +13,7 @@
 
     "language": {
 	"other_language_link": "?lang=pt",
-	"other_language_src": "images/language_br.png"
+	"other_language_src": "images/language_br.png",
+	"other_language": "Português"
     }
 }
